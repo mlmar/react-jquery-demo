@@ -32,4 +32,4 @@ Demo here: https://mlmar.github.io/react-jquery-demo/
 
 ## Differences from the norm
 - React apps are typically served from a [webpack](https://webpack.js.org/) server for ease development
-  - Hot reloading, transpiling, etc.
+  - Hot reloading, transpiling, es6, modules, etc.
