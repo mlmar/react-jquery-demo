@@ -1,0 +1,1 @@
+call npx babel ../jsx_raw --presets=@babel/preset-env,@babel/preset-react -d ../jsx_transpiled
