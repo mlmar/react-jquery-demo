@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  padding: 2rem;
+}
+
+#main > div {
+  display: flex;
+  outline: black 1px dashed;
+  margin-bottom: 2rem;
+}
+
+
+
+
+/* The css for the component can be applied normally */
+.test-component {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.test-component > * {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  margin-bottom: .5rem;
+}
+
+.test-component .even {
+  color: green;
+}
+
+.test-component .odd {
+  color: red;
+}
