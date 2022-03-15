@@ -29,3 +29,7 @@ Demo here: https://mlmar.github.io/react-jquery-demo/
     });
     ReactDOM.render(testComponentReact2, el2);
     ```
+
+## Differences from the norm
+- React apps are typically served from a [webpack](https://webpack.js.org/) server for ease development
+  - Hot reloading, transpiling, etc.
