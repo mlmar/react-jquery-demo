@@ -3,6 +3,9 @@
 This is a proof of concept for implementing React components in a non-react application.
 
 
+Demo here: https://mlmar.github.io/react-jquery-demo/
+
+
 ## Prerequisites
 - [Node Package Manager (NPM)](https://www.npmjs.com/) is needed for [Babel](https://babeljs.io/) to transpile JSX files to JS files.
 
